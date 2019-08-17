@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="container">
+    <div class = 'row'>
+      <div class = 'col-sm-4'>
+        <h2> Education</h2>
+        <ul class = 'nav nav-pills nav-stacked'>
+         <li class = 'active'><a href="https://www.gwu.edu"> George Washington University</a></li>
+          <li class = 'active'> Business Analytics</li>
+          <li class = 'active'><a href="https://www.uci.edu"> University of California, Irvine</a></li>
+          <li class = 'active'> Business Economics</li>
+        </ul>
+        <h2> Social Media</h2>
+        <ul class="nav nav-pills nav-stacked">
+          <li class = 'active'> <a href="https://www.linkedin.com/in/elvis-zhihong-leng/"> LinkedIn</a> </li>
+        </ul>
+
+      </div>
+      <div class = 'col-sm-8'>
+        <div class = 'media'>
+          <img class="rounded-circle account-img" src = '{{ image_file }}' style="width:100px;height:100px;">
+          <div class ='media-body'>
+            <br>
+            <h2> About Me</h2>
+          </div>
+        </div>
+        <p> Hello, my name is Zhihong Leng. I also go by Elvis. I created this page as a personal project. I will be adding more
+        things to this page. </p>
+        <p> I love reading. The books on the home page are the ones that I read in 2019. I also enjoy wine. I am currently pursuing
+        my Wine and Spirit Education Trust(WSET) Level III certification in wine. </p>
+      </div>
+    </div>
+
+  </div>
+{% endblock content %}
